@@ -1,0 +1,25 @@
+Are you a Robot
+		
+#include<iostream.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+	clrscr();
+	char robchk[10];
+
+	// answer in yes or other/no
+	cout<<"Are you a Robot ? ";
+	cin>>robchk;
+	int a = strcmp("yes", robchk);
+	if(a==0)
+	{
+		cout<<"You are Robot";
+	}
+	else
+	{
+		cout<<"OK You are not Robot";
+	}
+	getch();
+}
+                
